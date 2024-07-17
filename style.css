@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+body{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  background:linear-gradient(skyblue 30%,white 100%);
+}
+p{
+    padding: 10px;
+    font-size: 20px;
+}
+.container{
+    background-color: #ffffffdd;
+    padding: 30px;
+    border-radius: 20px 0;
+    min-height: 55vh;
+    width: 330px;
+}
+.container:hover{
+  
+    cursor: pointer;
+}
+form{
+    margin: 20px 0 20px 0;
+}
+form select,button,input{
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    border-radius: 10px;
+}
+form input{
+    border: 1px solid lightgrey;
+    font-size: 20px;
+    height: 40px;
+    padding-left: 10px;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.select-container img{
+   min-width: 1.6rem;
+}
+.select-container{
+    display: flex;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid lightgrey;;
+}
+.dropdown i{
+    font-size: 25px;
+    margin: 20px;
+}
+.select-container select{
+    font-size: 15px;
+    width: auto;
+}
+.msg{
+    margin: 20px 0 20px 0;
+    font-size:20px;
+}
+button{
+    padding:15px;
+    font-size: 18px;
+    background-color: rgb(235, 135, 135);
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
